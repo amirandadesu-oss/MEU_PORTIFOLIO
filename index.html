@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfólio de Anilander Carvalho - Desenvolvedor Júnior em Sistemas Informáticos">
+    <title>Anilander Carvalho - Portfólio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header Fixo -->
+    <header class="header">
+        <div class="header-container">
+            <div class="logo">Anilander Carvalho</div>
+            
+            <!-- Menu Navegação -->
+            <nav class="nav-menu">
+                <a href="#sobre" class="nav-link">Sobre</a>
+                <a href="#projetos" class="nav-link">Projetos</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#experiencia" class="nav-link">Experiência</a>
+                <a href="#contacto" class="nav-link">Contacto</a>
+            </nav>
+            
+            <!-- Botão Hamburguer (Mobile) -->
+            <button class="hamburger-menu" aria-label="Menu de navegação">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <!-- Secção SOBRE (Hero) -->
+        <section id="sobre" class="hero">
+            <div class="container">
+                <div class="hero-container">
+                    <img src="assets/foto.jpeg" alt="Anilander Carvalho" class="hero-photo">
+                    <div class="hero-content">
+                        <h1 class="hero-title">Anilander Carvalho</h1>
+                        <p class="hero-subtitle">Desenvolvedor Júnior · Sistemas Informáticos</p>
+                        <p class="hero-text">
+                           Jovem dinâmico, extrovertido e comunicativo, com formação em Sistemas Informáticos experiente em ambiente de trabalho comercial e com capacidade de trabalho em equipa, pontual e dedicado e a procura de uma oportunidade na área de vendas e atendimento ao cliente onde posso aprender novas competências e crescer profissionalmente.
+
+                        </p>
+                        <div class="hero-buttons">
+                            <a href="#projetos" class="btn btn-primary">Ver projetos</a>
+                            <a href="assets/cv.pdf" class="btn btn-secondary" download>Download CV</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Secção PROJETOS -->
+        <section id="projetos" class="projects">
+            <div class="container">
+                <h2 class="section-title">Projetos</h2>
+                <div class="projects-grid">
+                    <!-- Projeto 1: NewBook -->
+                    <article class="project-card">
+                        <div class="project-header">
+                            <h3 class="project-title">NewBook — App de Marcações de Beleza</h3>
+                            <span class="project-status project-status-dev">Em desenvolvimento</span>
+                        </div>
+                        <div class="project-stack">
+                            <span class="stack-tag">Flutter</span>
+                            <span class="stack-tag">Dart</span>
+                            <span class="stack-tag">Firebase</span>
+                        </div>
+                        <p class="project-description">
+                            App móvel para agendamento de serviços de beleza, com perfis para clientes e profissionais, sistema de notificações, marcações e promoções.
+                        </p>
+                        <a href="https://github.com/amirandadesu-oss/newbook" target="_blank" rel="noopener" class="project-link">Abrir no GitHub →</a>
+                    </article>
+
+                    <!-- Projeto 2: Site Câmara Municipal do Barreiro -->
+                    <article class="project-card">
+                        <div class="project-header">
+                            <h3 class="project-title">Site para a Câmara Municipal do Barreiro</h3>
+                            <span class="project-status project-status-internship">Projeto em estágio</span>
+                        </div>
+                        <div class="project-stack">
+                            <span class="stack-tag">HTML</span>
+                            <span class="stack-tag">CSS</span>
+                            <span class="stack-tag">Bootstrap</span>
+                            <span class="stack-tag">JavaScript</span>
+                        </div>
+                        <p class="project-description">
+                            Desenvolvimento de website em parceria com a Câmara Municipal do Barreiro durante estágio numa startup tecnológica local, com foco em interface responsiva e acessível.
+                        </p>
+                        <span class="project-private">Código privado</span>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Secção SKILLS -->
+        <section id="skills" class="skills">
+            <div class="container">
+                <h2 class="section-title">Skills</h2>
+                <div class="skills-grid">
+                    <!-- Coluna: Tecnologia -->
+                    <div class="skills-column">
+                        <h3 class="skills-column-title">Tecnologia</h3>
+                        <div class="skills-list">
+                            <span class="skill-tag">HTML</span>
+                            <span class="skill-tag">CSS</span>
+                            <span class="skill-tag">Bootstrap</span>
+                            <span class="skill-tag">JavaScript</span>
+                            <span class="skill-tag">Flutter</span>
+                            <span class="skill-tag">Dart</span>
+                            <span class="skill-tag">Linguagem C</span>
+                            <span class="skill-tag">Lógica de Programação</span>
+                        </div>
+                    </div>
+
+                    <!-- Coluna: Competências Pessoais -->
+                    <div class="skills-column">
+                        <h3 class="skills-column-title">Competências Pessoais</h3>
+                        <div class="skills-list">
+                            <span class="skill-tag">Atendimento ao cliente</span>
+                            <span class="skill-tag">Trabalho em equipa</span>
+                            <span class="skill-tag">Comunicação</span>
+                            <span class="skill-tag">Pontualidade</span>
+                            <span class="skill-tag">Criatividade</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Secção EXPERIÊNCIA -->
+        <section id="experiencia" class="experience">
+            <div class="container">
+                <h2 class="section-title">Experiência</h2>
+                <div class="timeline">
+                    <!-- Item 1: Estágio -->
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <h3 class="timeline-title">Estagiário de Desenvolvimento</h3>
+                            <p class="timeline-company">Startup Barreiro</p>
+                            <p class="timeline-period">3 meses</p>
+                            <p class="timeline-description">
+                                Desenvolvimento de projeto em parceria com a Câmara Municipal do Barreiro, em equipa numa startup de tecnologia.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Item 2: Limpeza Exterior -->
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <h3 class="timeline-title">Funcionário de Limpeza Exterior</h3>
+                            <p class="timeline-company">Empresa de Vendas Automóveis</p>
+                            <p class="timeline-period">2 anos</p>
+                            <p class="timeline-description">
+                                Gestão de tarefas diárias, cumprimento de horários e contacto regular com clientes e colaboradores.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Secção CONTACTO -->
+        <section id="contacto" class="contact">
+            <div class="container">
+                <h2 class="section-title">Vamos Conversar</h2>
+                <p class="contact-intro">Vamos conversar sobre a próxima oportunidade.</p>
+                
+                <!-- Informações de Contacto -->
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <strong>Email:</strong>
+                        <a href="mailto:anilanderm@gmail.com">anilanderm@gmail.com</a>
+                    </div>
+                    <div class="contact-item">
+                        <strong>Telefone:</strong>
+                        <a href="tel:+351931893274">931 893 274</a>
+                    </div>
+                    <div class="contact-item">
+                        <strong>Localização:</strong>
+                        <span>Lisboa, Portugal</span>
+                    </div>
+                </div>
+
+                <!-- Formulário de Contacto -->
+                <form class="contact-form" id="contactForm" action="https://formspree.io/f/mbdvdepb" method="POST">
+                    <div class="form-group">
+                        <label for="name">Nome</label>
+                        <input type="text" id="name" name="name" placeholder="O seu nome" required>
+                        <span class="form-error" id="nameError"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="seu@email.com" required>
+                        <span class="form-error" id="emailError"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Mensagem</label>
+                        <textarea id="message" name="message" placeholder="A sua mensagem..." rows="5" required></textarea>
+                        <span class="form-error" id="messageError"></span>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary">Enviar Mensagem</button>
+                    <div class="form-success" id="formSuccess"></div>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; <span id="year"></span> Anilander Carvalho. Todos os direitos reservados.</p>
+            <div class="footer-links">
+                <a href="#" class="footer-link">LinkedIn</a>
+                <a href="#" class="footer-link">GitHub</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
