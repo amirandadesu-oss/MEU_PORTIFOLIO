@@ -895,4 +895,9 @@ section {
         width: 140px;
         height: 140px;
     }
+    .hero-text {
+        text-align: left;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
