@@ -639,6 +639,11 @@ section {
     color: var(--accent);
 }
 
+.contact-item a[href*="wa.me"] {
+    color: var(--accent-mint);
+    font-weight: 600;
+}
+
 .contact-form {
     max-width: 600px;
     margin: 0 auto;
